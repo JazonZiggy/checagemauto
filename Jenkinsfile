@@ -11,6 +11,8 @@ pipeline {
                 HTTPS_PROXY = 'http://proxy:3128'
                 http_proxy = 'http://proxy:3128'
                 https_proxy = 'http://proxy:3128'
+                NO_PROXY = 'docker'
+                no_proxy = 'docker'
             }
 
     stages {
